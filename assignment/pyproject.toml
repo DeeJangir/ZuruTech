@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pyls"
+version = "0.1.0"
+description = "unix-ls command like python program"
+authors = ["Deepak Jangir"]
+
+[tool.poetry.scripts]
+pyls = "pyls:main"
+
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.core.masonry.api"
